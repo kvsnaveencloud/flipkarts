@@ -32,7 +32,7 @@ pipeline {
         }
 	stage('Deployment') {
 	   steps {
-		sh 'scp target/flipkarts.war root@172.31.11.49:/root/tomcat/apache-tomcat-10.1.60/webapps
+		sh 'scp target/flipkarts.war root@172.31.11.49:/root/tomcat/apache-tomcat-10.1.60/webapps'
     }
 }
 }
